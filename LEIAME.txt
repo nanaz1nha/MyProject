@@ -1,0 +1,26 @@
+O QUE É O GITHUB?
+
+É uma plataforma que oferece um serviço em nuvem que tem como finalidade permitir o acesso síncrono de 1 desenvolvedor ou mais além
+de também disponibilizar acesso a versões antigas de outros projetos, desta forma, garantindo uma melhor organização e controle de projetos públicos ou privados.
+
+RECURSOS:
+
+- sistema de controles de versões centralizados
+- ramificações de recursos
+- plataforma mais simples
+- criar repositórios
+- criar branches(ramificações)
+
+HISTÓRIA E EVOLUÇÃO
+
+
+
+
+
+COMPARATIVOS COM OUTRAS PLATAFORMAS
+
+
+
+
+
+

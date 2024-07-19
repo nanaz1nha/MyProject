@@ -18,7 +18,7 @@ if resposta == 1:
     avaliacao = int(input())
     print("obrigado por nos avaliar!")
 elif resposta == 0:
-    input("Descreva sua reclamação:")
+    reclamacao = input("Descreva sua reclamação:")
     print("Pedimos desculpas pelo mal entendido!")
 else:
     print("Opção desconhecida!")

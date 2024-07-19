@@ -5,16 +5,17 @@ media = (n1 + n2 ) / 4
 
 print(f"A média é {media}")
 
-if media < 4:
-    print("Aluno reprovado")
-if media > 6:
+
+if media >= 6:
     print("Aluno aprovado direto")
+elif media <= 4 and media < 6:
+    print("Aluno reprovado")
 else:
     print("aluno em recuperação")
 
-nota = (input("Digite a nota da prova de recuperação:"))
+nota3 = float(input("Digite a nota da prova de recuperação:"))
 
-if nota < 5:
+if nota3 <= 5:
     print("Reprovado na recuperação")
 else:
     print("Aprovado na recuperação")

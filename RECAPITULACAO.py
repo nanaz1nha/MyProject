@@ -15,7 +15,7 @@ if local == "Disney":
 elif local == "Paris":
     print("Então foi um passeio romântico...")
 else:
-    pinrt("ok, não conheço esse lugar!")
+    print("ok, não conheço esse lugar!")
 
 # recapitulando o uso de match case
     

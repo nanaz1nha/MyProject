@@ -1,4 +1,4 @@
-#DEMONSTRAÇÃO DO USO DE FUNÇÕES...
+#DEMONSTRAÇÃO DO USO DE FUNÇÕES POR DEF em apresentar e conferir...
 def APRESENTAR():
     print("Meu nome é ", NyName, ".")
     print("Minha altura é de", MyHeigh, "metros")
@@ -10,7 +10,7 @@ def CONFERIR(X):
     else:
         print("Ops, menor de idade não pode!")
     return
-
+#coletando dados
 NyName = str(input("Digite o seu nome: "))
 MyHeigh = float(input("Digite a sua altura: "))
 MyAge = int(input("Digite a sua idade: "))

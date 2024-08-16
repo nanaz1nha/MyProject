@@ -8,6 +8,11 @@ class cliente:
         self.conta = conta
         self.saldo = saldo
 
+    def apresentar(self):
+        print("Olá! eu sou a classe-pai!")
+        pass
+
+
 class cliente_fisico(cliente):
     def apresentar(self):
         print("Olá! Eu sou:", self.titular)
@@ -16,7 +21,7 @@ class cliente_fisico(cliente):
         return
 
     
-# Para criar uma instância baesada na classe cliente...
+# Para criar uma instância baseada na classe cliente...
 fulano = cliente_fisico("João", "423.05025-21" , 25000.00)
 
 # Executado o método da instância criada...
